@@ -198,7 +198,7 @@ p {
 
 .navbar-cls-top .navbar-brand {
 	color: #fff;
-	background: #00c92c;
+	background: #c90000;
 	width: 260px;
 	text-align: center;
 	height: 60px;
@@ -206,7 +206,7 @@ p {
 	font-weight: 700;
 }
 .active-menu {
-	background-color: #00c92c !important;
+	background-color: #c90000 !important;
 }
 
 .arrow {

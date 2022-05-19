@@ -2,35 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Webpage Title -->
+    <title>SIG KOPERASI | <?= $title ?></title>
 
-  <title>Day Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="<?= base_url('assets/css') ?>/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url('assets/template') ?>/plugins/fontawesome-free/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="<?= base_url('assets/css') ?>/swiper.css" rel="stylesheet">
+    <link href="<?= base_url('assets/css') ?>/styles.css" rel="stylesheet">
 
-  <!-- Favicons -->
-  <link href="<?= base_url('assets/img') ?>/favicon.png" rel="icon">
-  <link href="<?= base_url('assets/img') ?>/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/logo.png">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="<?= base_url() ?>/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="<?= base_url() ?>/assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Day - v4.7.0
-  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <link rel="stylesheet" href="<?= base_url() ?>leaflet/leaflet.css"/>
+   <script src="<?= base_url() ?>leaflet/leaflet.js"></script>
 </head>

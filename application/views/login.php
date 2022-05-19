@@ -2,9 +2,10 @@
         <div class="row text-center ">
             <div class="col-md-12">
                 <br /><br />
-                <h2> Binary Admin : Login</h2>
+                <h2> SISTEM INFORMASI GEOGRAFIS KOPERASI <br>
+                KAB.SUBANG</h2>
                
-                <h5>( Login yourself to get access )</h5>
+                
                  <br />
             </div>
         </div>
@@ -13,7 +14,7 @@
                   <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                        <strong>   Enter Details To Login </strong>  
+                        <strong>  Login  </strong>  
                             </div>
                             <div class="panel-body">
                                 <form role="form">
@@ -35,9 +36,8 @@
                                             </span>
                                         </div>
                                      
-                                     <a href="index.html" class="btn btn-primary ">Login Now</a>
+                                     <a href="index.html" class="btn btn-primary ">Login</a>
                                     <hr />
-                                    Not register ? <a href="registeration.html" >click here </a> 
                                     </form>
                             </div>
                            
