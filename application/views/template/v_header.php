@@ -10,8 +10,8 @@
                 </button>
                 <a class="navbar-brand">SIG KOPERASI</a> 
             </div>
-  <div style="color: white;
-padding: 15px 50px 5px 50px;
-float: right;
-font-size: 16px;"> SIG KOPERASI SUBANG &nbsp; <a href="login" class="btn btn-danger square-btn-adjust">Logout</a> </div>
+  <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;"> SIG KOPERASI SUBANG &nbsp; <a href="login" class="btn btn-danger square-btn-adjust">Logout</a>
+ </div>
+
+
         </nav>   

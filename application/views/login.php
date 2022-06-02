@@ -4,46 +4,36 @@
                 <br /><br />
                 <h2> SISTEM INFORMASI GEOGRAFIS KOPERASI <br>
                 KAB.SUBANG</h2>
-               
-                
                  <br />
             </div>
         </div>
          <div class="row ">
-               
                   <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div class="panel-heading text-center">
                         <strong>  Login  </strong>  
                             </div>
                             <div class="panel-body">
-                                <form role="form">
+                                <form action="<?= base_url() ?>login/proses_login" method="POST">
+                                <?php echo $this->session->flashdata('pesan'); ?>
                                        <br />
                                      <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
-                                            <input type="text" class="form-control" placeholder="Your Username " />
+                                            <input type="text" id="username" class="form-control" placeholder="Username" required="required" autofocus="autofocus" name="username">
                                         </div>
-                                                                              <div class="form-group input-group">
+                                        <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
-                                            <input type="password" class="form-control"  placeholder="Your Password" />
+                                            <input type="password" id="password" class="form-control"  placeholder="Password" required="required" name="password">
                                         </div>
-                                    <div class="form-group">
-                                            <label class="checkbox-inline">
-                                                <input type="checkbox" /> Remember me
-                                            </label>
-                                            <span class="pull-right">
-                                                   <a href="#" >Forget password ? </a> 
-                                            </span>
-                                        </div>
-                                     
-                                     <a href="index.html" class="btn btn-primary ">Login</a>
+                                     <br>
+                                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                        <br>
+                                        <a href="fhome">Back to home</a>
                                     <hr />
-                                    </form>
+                                </form>
                             </div>
                            
                         </div>
                     </div>
-                
-                
         </div>
     </div>

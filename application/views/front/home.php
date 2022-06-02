@@ -51,12 +51,11 @@
         <div class="row">
           <h2 class="h2-sejarah">KOPERASI</h2>
           <p>
-            <li> Undang-Undang Nomor 14 Tahun 1950 tentang Pembentukan Daerah-Daerah Kabupaten Dalam Lingkungan Propinsi Djawa Barat, sebagaimana telah diubah dengan Undang-Undang Nomor 4 Tahun 1968, tentang Pembentukan Kabupaten Purwakarta dan Kabupaten Subang, dengan Mengubah Undang-Undang Nomor 14 Tahun 1950 tentang Pembentukan Daerah-Daerah Kabupaten Dalam Lingkungan Propinsi Djawa Barat;</li>
-            <li> Undang-Undang Nomor 5 Tahun 2014 tentang Aparatur Sipil Negara;</li>
-            <li> Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah;</li>
-            <li> Peraturan Pemerintah Nomor 18 Tahun 2016 tentang Perangkat Daerah;</li>
-            <li> Peraturan Daerah Kabupaten Subang Nomor 7Tahun 2016, tentang Pembentukan dan Susunan Perangkat Daerah Kabupaten Subang;</li>
-            <li> Peraturan BupatiSubang Nomor 32 Tahun 2016, tentang Susunan Organisasi Perangkat Daerah Dinas;</li>
+          Menurut Undang-undang No.12 Tahun 1967 tentang pokok-pokok perkoperasian Pasal 3 menjelaskan bahwa Koperasi Indonesia adalah organisasi ekonomi rakyat yang berwatak sosial, beranggotakan orang-orang atau badan hukum koperasi yang merupakan tata susunan ekonomi sebagau usaha Bersama berdasar atas asas kekeluargaan. 
+          <br>
+          Menurut Undang-undang Republik Indonesia No.25 Tahun 1992 Tentang Perkoperasian pada Pasal 1 menyatakan bahwa Koperasi adalah badan usaha yang beranggotakan orang-orang atau badan hukum koperasi dengan melandaskan  
+          kegiatannya berdasarkan prinsip koperasi sekaligus sebagai Gerakan ekonomi rakyat yang berdasar atas asas kekeluargaan.
+
           </p>
         </div>
       </div>
@@ -81,18 +80,31 @@
       <div class="col-lg-10 offset-lg-1">
 
         <!-- Contact Form -->
-        <form>
+        <div class="alert alert-primary alert-dismissible fade show d-none my-alert" role="alert">
+  <strong>Terimakasih!</strong> Pesan Anda Sudah Kami Terima :)
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+
+        <form name="Contact">
           <div class="form-group">
-            <input type="text" class="form-control-input" placeholder="Name" required>
+            <input type="text" name="nama" class="form-control-input"  placeholder="Name" required>
           </div>
           <div class="form-group">
-            <input type="email" class="form-control-input" placeholder="Email" required>
+            <input type="email" name="email" class="form-control-input"  placeholder="Email" required>
           </div>
           <div class="form-group">
-            <textarea class="form-control-textarea" placeholder="Message" required></textarea>
+            <textarea class="form-control-textarea" name="pesan"  placeholder="Message" required></textarea>
           </div>
           <div class="form-group">
-            <button type="submit" class="form-control-submit-button">Submit</button>
+            <button type="submit"  class="btn btn-success btn-kirim">kirim</button>
+
+            <button class="btn btn-success btn-loading d-none" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...
+</button>
           </div>
         </form>
         <!-- end of contact form -->

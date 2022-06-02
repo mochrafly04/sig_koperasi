@@ -6,6 +6,10 @@ class Home extends CI_Controller {
             'title' => 'SIG KOPERASI',
             'isi' => 'v_home'
        );
+
+       if ($this->session->userdata('level') == null) {
+           redirect('Login', 'refresh');
+       }
        $this->load->view('template/v_wrapper', $data, FALSE);
     }
 }

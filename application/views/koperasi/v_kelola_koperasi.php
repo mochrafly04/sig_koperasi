@@ -17,7 +17,7 @@
     <div class="row mt-3">
         <div class="col-md-6">
             <a href="<?= base_url('koperasi/tambah') ?>" class="btn btn-primary"><i class="fa fa-plus-square"></i> Tambah Data </a>
-            <a href="" class="btn btn-success"><i class="fa fa-print"></i> Print </a>
+            <a href="" class="pdf-table btn btn-success"><i class="fa fa-print"></i> Print </a>
         </div>
     </div>
 
@@ -33,9 +33,11 @@
                             <th>Status Koperasi</th>
                             <th>Desa</th>
                             <th>Kecamatan</th>
-                            <th>La</th>
-                            <th>Lt</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                            <th>Gambar</th>
                             <th>Keterangan</th>
+                            <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -49,8 +51,9 @@
                             <td><?= $dk->status_koperasi ?></td>
                             <td><?= $dk->desa ?></td>
                             <td><?= $dk->kecamatan ?></td>
-                            <td><?= $dk->la ?></td>
-                            <td><?= $dk->lt ?></td>
+                            <td><?= $dk->latitude ?></td>
+                            <td><?= $dk->longitude ?></td>
+                            <td><?= $dk->gambar ?></td>
                             <td><?= $dk->keterangan ?></td>
                             <td>
                                 <a href="<?= base_url('koperasi/ubah/' .$dk->id_koperasi) ?>" class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></a>

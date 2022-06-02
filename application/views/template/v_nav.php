@@ -12,19 +12,13 @@
                         <a  href="<?= base_url('koperasi') ?>"><i class="fa fa-desktop"></i>Kelola SIG Koperasi</a>
                     </li>
                     <li>
-                        <a  href="ui.html"><i class="fa fa-file-image-o"></i>Kelola Galeri</a>
+                        <a  href="<?= base_url('password') ?>"><i class="fa fa-user"></i>Kelola Akun</a>
                     </li>
                     <li>
-                        <a  href="ui.html"><i class="fa fa-user"></i>Kelola User</a>
+                        <a  href="<?= base_url('pesan') ?>"><i class="fa fa-inbox"></i>Kotak Masuk</a>
                     </li>
                     <li>
-                        <a  href="ui.html"><i class="fa fa-inbox"></i>Kotak Masuk</a>
-                    </li>
-                    <li>
-                        <a  href="ui.html"><i class="fa fa-pencil"></i>Input Form Koperasi</a>
-                    </li>
-                    <li>
-                        <a  href="<?= base_url('map') ?>"><i class="fa fa-map-marker"></i> View Map</a>
+                        <a  href="<?= base_url('pesan/tambah') ?>"><i class="fa fa-pencil"></i>Input Form Koperasi</a>
                     </li>
                 </ul>
                
